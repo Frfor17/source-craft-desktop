@@ -20,5 +20,8 @@
   "homepage": "https://github.com/Frfor17/source-craft-desktop#readme",
   "devDependencies": {
     "electron": "^40.6.1"
+  },
+  "dependencies": {
+    "isomorphic-git": "^1.37.2"
   }
 }
