@@ -1,7 +1,10 @@
 <!DOCTYPE html>
-<html><body>
+<html><body style="padding:20px; font-family: Arial;">
 <h1>SourceCraft Desktop</h1>
-<button onclick="testClone()">Clone репо</button>
-<div id="status">Готов к тесту</div>
+<div>
+  <input id="repoUrl" placeholder="https://github.com/user/repo.git" style="width:400px;padding:8px;">
+  <button onclick="connectRepo()">Подключить репозиторий</button>
+</div>
+<div id="status" style="margin:20px 0; padding:10px; background:#f0f0f0;">Готов к подключению</div>
 <script src="renderer.js"></script>
 </body></html>
